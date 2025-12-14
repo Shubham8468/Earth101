@@ -25,39 +25,39 @@ const CountryDetails = () => {
     }
 
     return (
-        <section className='card country-details-card container'>
-            <div className='container-card bg-white-box'>
+        <section className='one-item-main'>
+            <div className='one-item-div'>
                 {
                     Countrie?.map((item, index) => {
                         return (
-                            <div className='main-items' key={index}>
-                                <div className='Detail-img'>
+                            <div className='one-item' key={index}>
+                                <div className='one-img'>
                                     <img src={item?.flags?.svg} alt={item?.name?.common ?? item?.name?.official ?? 'flag'} className='main-img-item' />
                                 </div>
                                 <div className='left-items'>
                                     <ul className='left-items-titels'>
                                         <p>
-                                            <span className='card-description'> Official Name:</span>
+                                            <span className='one-details'> Official Name:</span>
                                             {item?.name?.official ?? 'No name'}
                                         </p>
                                         <p>
-                                            <span className='card-description'> Population:</span>
+                                            <span className='one-details'> Population:</span>
                                             {item?.population ?? 'No name'}
                                         </p>
                                         <p>
-                                            <span className='card-description'> Region:</span>
+                                            <span className='one-details'> Region:</span>
                                             {item?.region?? 'No name'}
                                         </p>
                                         <p>
-                                            <span className='card-description'> Capital:</span>
+                                            <span className='one-details'> Capital:</span>
                                             {item?.capital ?? 'No name'}
                                         </p>
                                         <p>
-                                            <span className='card-description'> Borders:</span>
+                                            <span className='one-details'> Borders:</span>
                                             {item?.Borders ?? 'No name'}
                                         </p>
                                         <p>
-                                            <span className='card-description'> Currencies:</span>
+                                            <span className='one-details'> Currencies:</span>
                                             {item?.Currencies?? 'No name'}
                                         </p>
                                        

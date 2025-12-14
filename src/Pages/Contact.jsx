@@ -1,6 +1,7 @@
 import React from 'react'
 import './Contact.css'
 
+
 const Contact = () => {
   //this is new feature in react 19 for form handling
   const handeleFormSubmit=(formData)=>{
@@ -20,6 +21,7 @@ const Contact = () => {
         <button type='submit' value="send"> Send</button>
 
       </form>
+       
       </div>
     </section>
 

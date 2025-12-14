@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+ .count-item-list{
+    @apply  p-8 mt-30 ;
+ }
+ .count-list{
+    @apply  grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8  
+    mt-20 px-8  ;
+ }

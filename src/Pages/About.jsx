@@ -9,7 +9,9 @@ const About = () => {
                 <br />
                 we  are proud of
             </h2>
+           
             <div className='gradient-cards'>
+                
 
                 {countryFacts.map((country) => {
                     const { id, countryName, capital, population, interestingFact, gdp, languages } = country;
@@ -17,26 +19,26 @@ const About = () => {
                         <div className='container-card bg-blue-box'>
                             <p className='card-title'>{countryName}</p>
                             <p className='data'>
-                                <span className='card-description'>Capital:</span>
+                                <span className='card-description'>Capital: </span>
                                 {capital}
                             </p>
                             <p className='data'>
-                                <span className='card-description'>Population:</span>
+                                <span className='card-description'>Population: </span>
                                 {population}
                             </p>
                             <p className='data'>
-                                <span className='card-description'>Facts:</span>
+                                <span className='card-description'>Facts: </span>
                                 {interestingFact}
                             </p><p className='data'>
-                                <span className='card-description'>GDP:</span>
+                                <span className='card-description'>GDP: </span>
                                 {gdp}
                             </p>
                             <p className='data'>
-                                <span className='card-description'>Languages:</span>
+                                <span className='card-description'>Languages: </span>
                                 {languages}
                             </p>
                         </div>
-
+               
 
                     </div>
                     )

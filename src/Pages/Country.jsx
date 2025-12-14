@@ -26,8 +26,8 @@ if(isPending){
 }
 
   return (
-   <setion className="counrty-section" >
-    <ul className='grid grid-four-cols'>
+   <setion className="count-item-list" >
+    <ul className='count-list'>
       {
       Countries.map((currCountry,index)=>{
       return(
