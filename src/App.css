@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-color: #202020;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "urbanist";
+}
+
+body {
+  background-color: black;
+}
+
+/* 
+this are use for the defult colore of heading tag is black */
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: white;
+}
+
+p,
+li,
+a,
+button {
+  font-size: 1.7rem;
+  letter-spacing: 0.1rem;
+  line-height: 1.6;
+  color: white;
+}
+
+li {
+  list-style: none;
+
+  :hover {
+    color: #2e86c1;
+  }
+}
+button{
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.2rem;
+  padding: 0.6rem 2.4rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  font-family: inherit;
+  border: none;
+  border-radius: 1.5rem;
+  background-color: #2e86c1;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  line-height: 1.5;
+  text-transform: unset;
+  transition: all 0.3s ease-in-out;
+  background: #202020;
+  border-width: 0.1rem;
+  border-style: solid;
+  -webkit-border-redius:1.5rem;
+  -moz-border-radius:1.5rem;
+  -ms-border-radius:1.5rem;
+  margin-top: 1.5rem;
+
+  &:hover {
+    background-color: #21618c;
+  }
+}
+.container{
+   max-width: 140rem;
+   margin: auto;
+}
+.grid-three-cols {
+  grid-template-columns: repeat(3,1fr);
+}
+.grid{
+  display: grid;
+}
+.grid-two-cols{
+  grid-template-columns: repeat(2,1fr);
+}
+.grid-four-cols{
+  grid-template-columns: repeat(4,1fr);
+}
+header{
+  height: 8rem;
+  box-shadow: rgb(33,35,38,0.1) 0px 10px 10px -10px;
+  background-color: #202020;
+  width: 100%;
+  & :container  {
+    height: 10rem;
+  }
+}
+.navbar-grid{
+  /* do box bnaya hai aur usme 2 column banaye hai */
+  grid-template-columns: 0.5fr 1fr;
+  align-items: center;
+  height: 10rem;
+  padding: 0 3.2rem;
+   
+}
+nav ul{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 3.2rem;
+  color: #fff;
+   & li a{
+    color: #fff;
+     text-decoration: none;
+   }
+ 
+}
+.ham-menu{
+  display: none;
+}
+.Logo a{
+   text-decoration: none;
+}
+   /* hero section */
+.hero-section .container{
+  padding: 3.2rem;
+  margin: 9rem auto;
+  gap: 6.4rem;
+}
+
+.paragraph{
+  margin: 3.2rem 0;
+}
+.heading-xl{
+  font-family: inherit;
+  font-size: clamp(5.2rem, 6vw, 4.2rem);
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -1px;
+}
+.hero-image{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.container .banner-img{
+  width: 100%;
+  height: auto;
+  border-radius: 1.5rem;
+  box-shadow: rgb(33,35,38,0.1) 0px 10px 10px -10px;
+}
+@media (max-width: 768px){
+  .hero-section .container{
+    grid-template-columns: 1fr;
+    margin: 5rem auto;
+    text-align: center;
+  }
+  .hero-image{
+    margin-top: 3.2rem;
+  }
+  .navbar-grid{
+    grid-template-columns: 1fr 0.5fr;
+  }
+  nav ul{
+    display: none;
+  }
+  .ham-menu{
+    display: block;
+    cursor: pointer;
+  }
+}

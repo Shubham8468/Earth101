@@ -1,0 +1,7 @@
+.Detail-img{
+    display: block;
+    width: 388px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 6px;
+}

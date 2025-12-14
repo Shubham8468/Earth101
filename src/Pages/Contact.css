@@ -1,0 +1,27 @@
+.section-contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+
+}
+.form-main{
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;    
+}
+.form-control{
+    padding: 10px 20px;
+        width: 493px;
+    height: 58px;
+    font-size: 1.6rem;
+    border: 1px solid #131111;
+    border-radius: 0.8rem;
+    background-color: #1b1919;
+    color: white;
+}

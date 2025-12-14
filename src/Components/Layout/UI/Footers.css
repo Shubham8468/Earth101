@@ -1,0 +1,43 @@
+.footer-section{
+    background-color: #222;
+    padding: 15px 0;
+}
+.footer-co{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.icon{
+    font-size: 30px;
+    color: rgb(94, 94, 240);
+    margin-right: 15px;
+    margin-left: 20px;
+}
+.title{
+    font-weight: 800;
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 2px;
+}
+.info{
+    color: #ccc;
+    font-size: 16px;
+}
+.right{
+    text-align: center;
+    color: #777;
+    margin-top: 10px;
+}
+.great{
+    font-size: 18px;
+   
+}
+.all{
+    font-size: 14px;
+    color: #ccc;
+}
+hr{
+    border: none;
+    border-top: 1px solid #444;
+   
+}

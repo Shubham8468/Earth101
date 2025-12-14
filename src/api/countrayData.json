@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "countryName": "India",
+    "capital": "New Delhi",
+    "population": "1.43 Billion",
+    "interestingFact": "India has the world’s largest democracy and is home to the Taj Mahal.",
+    "gdp": "3.7 Trillion USD",
+    "languages": ["Hindi,", "English"]
+  },
+  {
+    "id": 2,
+    "countryName": "United States",
+    "capital": "Washington D.C.",
+    "population": "339 Million",
+    "interestingFact": "The U.S. has the world’s largest economy.",
+    "gdp": "28 Trillion USD",
+    "languages": ["English"]
+  },
+  {
+    "id": 3,
+    "countryName": "China",
+    "capital": "Beijing",
+    "population": "1.41 Billion",
+    "interestingFact": "China is one of the world’s oldest civilizations.",
+    "gdp": "18 Trillion USD",
+    "languages": ["Mandarin Chinese"]
+  },
+  {
+    "id": 4,
+    "countryName": "Japan",
+    "capital": "Tokyo",
+    "population": "124 Million",
+    "interestingFact": "Japan has the world’s fastest high-tech trains and advanced robotics.",
+    "gdp": "4.3 Trillion USD",
+    "languages": ["Japanese"]
+  },
+  {
+    "id": 5,
+    "countryName": "Brazil",
+    "capital": "Brasília",
+    "population": "203 Million",
+    "interestingFact": "Brazil is home to the Amazon Rainforest — the largest rainforest on Earth.",
+    "gdp": "2.1 Trillion USD",
+    "languages": ["Portuguese"]
+  },
+  {
+    "id": 6,
+    "countryName": "United Kingdom",
+    "capital": "London",
+    "population": "67 Million",
+    "interestingFact": "The U.K. is home to the world-famous British Monarchy.",
+    "gdp": "3.4 Trillion USD",
+    "languages": ["English"]
+  },
+  {
+    "id": 7,
+    "countryName": "Canada",
+    "capital": "Ottawa",
+    "population": "40 Million",
+    "interestingFact": "Canada has more lakes than the rest of the world combined.",
+    "gdp": "2.2 Trillion USD",
+    "languages": ["English,", "French"]
+  },
+  {
+    "id": 8,
+    "countryName": "Australia",
+    "capital": "Canberra",
+    "population": "26 Million",
+    "interestingFact": "Australia is the only country that is also a continent.",
+    "gdp": "1.7 Trillion USD",
+    "languages": ["English"]
+  },
+  {
+    "id": 9,
+    "countryName": "Germany",
+    "capital": "Berlin",
+    "population": "84 Million",
+    "interestingFact": "Germany is the largest economy in Europe.",
+    "gdp": "4.5 Trillion USD",
+    "languages": ["German"]
+  },
+  {
+    "id": 10,
+    "countryName": "France",
+    "capital": "Paris",
+    "population": "65 Million",
+    "interestingFact": "France is the most visited country in the world.",
+    "gdp": "3.1 Trillion USD",
+    "languages": ["French"]
+  },
+  {
+    "id": 11,
+    "countryName": "Italy",
+    "capital": "Rome",
+    "population": "59 Million",
+    "interestingFact": "Italy is home to the Roman Empire and Vatican City.",
+    "gdp": "2.1 Trillion USD",
+    "languages": ["Italian"]
+  },
+  {
+    "id": 12,
+    "countryName": "South Africa",
+    "capital": "Pretoria, Cape Town, Bloemfontein",
+    "population": "60 Million",
+    "interestingFact": "South Africa has three capital cities — unique in the world.",
+    "gdp": "405 Billion USD",
+    "languages": [" Zulu,", " Xhosa,", " Afrikaans,", " English"]
+  }
+]
