@@ -2,23 +2,26 @@
 @import "tailwindcss";
 
 .section-about{
-    @apply  flex flex-col items-center justify-center gap-8  p-8   ;
+    @apply  flex flex-col items-center justify-center gap-8  p-8    mx-8 mb-30;
 }
 .container-title{
-   @apply text-center text-blue-400 text-7xl mt-10 font-bold ;
+   @apply text-center text-blue-400  mt-10 font-bold ;
 }
 .gradient-cards{
-    @apply  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-20 ;
+    @apply  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-20  ;
 }
 .container-card{
     @apply  bg-gradient-to-r from-blue-500/70 to-purple-500/70 rounded-2xl shadow-xl p-6 flex flex-col items-start justify-start gap-6 text-white  py-8
-    px-16;
+    px-20 py-30;
    
 }
 .card-title{
     @apply text-6xl font-semibold  ;
 }
 
-.card-description{
-    @apply  font-semibold text-3xl text-black ;
+.card-description-about{
+    @apply   font-semibold text-4xl text-black  ;
+}
+.data-about{
+    @apply font-bold line-clamp-1;
 }

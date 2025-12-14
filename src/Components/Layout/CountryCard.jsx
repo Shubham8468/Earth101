@@ -11,17 +11,17 @@ const CountryCard = ({ Country, index }) => {
                 </div>
                 <div className='data-count'>
                 <p>
-                    <span className='data'>
+                    <span className='data-card'>
                         Name: </span>
                     {name.common.length > 10 ? name.common.slice(0,10) + "..." : name.common}
                 </p>
   
                 <p>
-                    <span className='data'> Capital: </span>
+                    <span className='data-card'> Capital: </span>
                     {capital}
                 </p>
                 <p>
-                    <span className='data'>  Region: </span>
+                    <span className='data-card'>  Region: </span>
                     {region}
                 </p>
                 </div>

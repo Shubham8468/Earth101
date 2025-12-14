@@ -4,24 +4,23 @@ import './Contact.css'
 
 const Contact = () => {
   //this is new feature in react 19 for form handling
-  const handeleFormSubmit=(formData)=>{
+  const handeleFormSubmit = (formData) => {
     // console.log(formData.entries()); 
-    const formInputData=Object.fromEntries(formData.entries());
+    const formInputData = Object.fromEntries(formData.entries());
     console.log(formInputData);
 
   }
   return (
     <section className='section-contact'>
       <h2 className='container-title'> Contact Us</h2>
-      <div className='container-wrapper container'>
-      <form className='form-main' action={handeleFormSubmit}>
-        <input type="text" className='form-control' required  autoComplete='true'placeholder='Enter Your Name' name='userName' />
-        <input type="email" className='form-control' required autoComplete='true' placeholder='Enter Your Email' name='userEmail' />
-        <textarea name="message" rows="10" className='form-control' required autoComplete='true' placeholder='Enter Your Message' ></textarea>
-        <button type='submit' value="send"> Send</button>
+      <div className='container-wrapper'>
+        <form className='form-main' action={handeleFormSubmit}>
+          <input type="text" className='contact-data' required autoComplete='true' placeholder='Enter Your Name' name='userName' />
+          <input type="email" className='contact-data' required autoComplete='true' placeholder='Enter Your Email' name='userEmail' />
+          <textarea name="message" rows="10" className='contact-data valu' required autoComplete='true' placeholder='Enter Your Message' ></textarea>
+          <button type='submit' className='contact-btn' value="send">Send</button>
+        </form>
 
-      </form>
-       
       </div>
     </section>
 

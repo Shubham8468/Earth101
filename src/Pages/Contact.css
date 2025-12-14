@@ -1,27 +1,23 @@
+@import "tailwindcss";
+
 .section-contact{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  @apply flex flex-col items-center justify-center gap-8 p-8 mt-20 mx-8 mb-40
+}
+.container-title{
+    @apply text-center text-blue-300 text-5xl md:text-6xl mt-10 font-bold;
 }
 .container-wrapper{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 4rem;
-
+  @apply flex items-center justify-center gap-16 text-white flex-wrap mt-20;
 }
 .form-main{
-    display: flex;
-    flex-direction: column;
-    gap: 2.4rem;    
+    @apply flex flex-col gap-20 text-white w-full md:w-96 items-center justify-center  ;
 }
-.form-control{
-    padding: 10px 20px;
-        width: 493px;
-    height: 58px;
-    font-size: 1.6rem;
-    border: 1px solid #131111;
-    border-radius: 0.8rem;
-    background-color: #1b1919;
-    color: white;
+.contact-data{
+    @apply flex flex-col gap-10 text-3xl text-blue-400 h-24 w-224 bg-white/10 rounded-2xl shadow-xl p-7 items-start justify-start py-8 px-16;
+}
+.valu{
+    @apply h-50
+}
+.contact-btn{
+    @apply w-100 mt-6 bg-black text-white font-bold py-6 px-10 rounded-2xl shadow-md hover:bg-blue-400 hover:text-white transition duration-300 ;
 }

@@ -36,32 +36,32 @@ const CountryDetails = () => {
                                 </div>
                                 <div className='left-items'>
                                     <ul className='left-items-titels'>
-                                        <p>
-                                            <span className='one-details'> Official Name:</span>
+                                        <p className='all-info'>
+                                            <span className='one-details'> Official Name: </span>
                                             {item?.name?.official ?? 'No name'}
                                         </p>
-                                        <p>
-                                            <span className='one-details'> Population:</span>
+                                        <p className='all-info'>
+                                            <span className='one-details'> Population: </span>
                                             {item?.population ?? 'No name'}
                                         </p>
-                                        <p>
-                                            <span className='one-details'> Region:</span>
+                                        <p className='all-info'>
+                                            <span className='one-details'> Region:  </span>
                                             {item?.region?? 'No name'}
                                         </p>
-                                        <p>
-                                            <span className='one-details'> Capital:</span>
+                                        <p className='all-info'>
+                                            <span className='one-details'> Capital: </span>
                                             {item?.capital ?? 'No name'}
                                         </p>
-                                        <p>
-                                            <span className='one-details'> Borders:</span>
-                                            {item?.Borders ?? 'No name'}
+                                        <p className='all-info'>
+                                            <span className='one-details'> Borders: </span>
+                                            {item?.borders ?? 'No name'}
                                         </p>
-                                        <p>
-                                            <span className='one-details'> Currencies:</span>
-                                            {item?.Currencies?? 'No name'}
+                                        
+                                        <p className='all-info'>
+                                            <span className='one-details'> Top-Level Domain: </span>
+                                            {item?.tld ?? 'No name'}
                                         </p>
-                                       
-
+                                      
                                     </ul>
                                 </div>
                             </div>

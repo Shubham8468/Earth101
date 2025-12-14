@@ -12,7 +12,7 @@
 .data-count{
     @apply  flex flex-col gap-4 mt-6  
 }
-.data{
+.data-card{
     @apply font-bold text-4xl text-black ;
 }
 .read-btn{
