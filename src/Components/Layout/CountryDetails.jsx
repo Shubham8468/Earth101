@@ -36,8 +36,7 @@ const CountryDetails = () => {
                                 </div>
                                 <div className='left-items'>
                                     <ul className='left-items-titels'>
-                                        <p className='all-info'>
-                                            <span className='one-details'> Official Name: </span>
+                                        <p className='official-name'>
                                             {item?.name?.official ?? 'No name'}
                                         </p>
                                         <p className='all-info'>

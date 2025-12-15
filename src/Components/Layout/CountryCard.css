@@ -9,6 +9,7 @@
 .flag-img img{
   @apply  w-124 h-64 object-cover rounded-lg shadow-md ;
 }
+
 .data-count{
     @apply  flex flex-col gap-4 mt-6  
 }

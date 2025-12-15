@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 .section-contact{
-  @apply flex flex-col items-center justify-center gap-8 p-8 mt-20 mx-8 mb-40
+  @apply flex flex-col items-center justify-center gap-8 p-8 mt-20 mx-30 pb-20 mb-40 border-2 border-blue-400 rounded-3xl shadow-[0px_30px_50px_rgba(99,102,241,0.6)] py-10 px-10 ;
 }
 .container-title{
     @apply text-center text-blue-300 text-5xl md:text-6xl mt-10 font-bold;

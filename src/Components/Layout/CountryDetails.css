@@ -1,30 +1,32 @@
 @import "tailwindcss";
 
 .one-item-main{
-    @apply flex flex-col items-center justify-center  mt-30 mx-8 mb-16;
+    @apply flex flex-col items-center justify-center  mt-50 mx-8 mb-80 ;
 }
 .one-item-div{
-    @apply rounded-2xl shadow-xl p-6 flex flex-col md:flex-row items-start justify-start gap-4   py-8
-    px-16;
+    @apply border-2 border-blue-400 rounded-3xl shadow-[0px_30px_50px_rgba(99,102,241,0.6)] py-10 px-10  h-200 mb-20;
 }
 .one-item{
     @apply flex flex-col md:flex-row gap-10 md:gap-90  mt-10 mb-16  px-8 pb-30 ;
 }
 .one-img img{
-    @apply w-140 h-95 object-cover rounded-lg shadow-md ml-0;
+    @apply w-140 h-95 object-cover rounded-lg shadow-md mt-20;
 }
 .one-img img{
     @apply rounded-2xl shadow-[0px_30px_50px_rgba(99,102,241,0.6)]
 }
 .left-items-titels{
-    @apply flex flex-col gap-3 ;
+    @apply flex flex-col  gap-10  ;
 }
 .one-details{
     @apply font-bold text-4xl text-white ;
 }
 .left-items{
-    @apply flex flex-col gap-6 md:gap-90 mt-10 mb-16  px-8 pb-30 w-124
+    @apply flex flex-col gap-6 md:gap-90  mb-16  px-3 pb-30 w-150
 }
 .all-info{
     @apply text-3xl text-blue-400 line-clamp-0;
+}
+.official-name{
+    @apply font-bold text-7xl text-blue-300  ;
 }
