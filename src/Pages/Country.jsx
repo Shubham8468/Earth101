@@ -2,10 +2,14 @@ import React, { useEffect, useTransition } from 'react'
 import { useState } from 'react';
 import {getCountryData} from '../api/postApi';
 import CountryCard from '../Components/Layout/CountryCard';
+import SerachFilter from '../Components/Layout/UI/SerachFilter';
 const Country = () => {
  const [isPending,startTransition]=useTransition();
  const [Countries, setCountries]=useState([]);  
 
+
+ const[search, setSearch]=useState('');
+ const[filter, setFilter]=useState('all');
 
 
 
@@ -24,12 +28,32 @@ useEffect(()=>{
 if(isPending){
   return <h1> Loading ....</h1>
 }
-
+ const filterCountries=Countries.filter((country)=>{
+  // Search filter
+  const matchesSearch = search 
+    ? country.name.common.toLowerCase().includes(search.toLowerCase())
+    : true;
+  
+  // Region filter
+  const matchesFilter = filter === 'all' 
+    ? true 
+    : country.region.toLowerCase() === filter.toLowerCase();
+  
+  return matchesSearch && matchesFilter;
+ })
   return (
-   <setion className="count-item-list" >
+   <section className="count-item-list" >
+     <SerachFilter
+      search={search}
+      setSearch={setSearch}
+      filter={filter}
+      setFilter={setFilter}
+     />
+
+
     <ul className='count-list'>
       {
-      Countries.map((currCountry,index)=>{
+      filterCountries.map((currCountry,index)=>{
       return(
         <CountryCard Country={currCountry} key={index}  >
 
@@ -38,7 +62,7 @@ if(isPending){
       )})
       }
     </ul>
-   </setion>
+   </section>
   )
 }
 

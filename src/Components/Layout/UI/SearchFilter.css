@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+.serach-item{
+    @apply flex flex-col justify-start md:flex-row gap-6 md:gap-90 mx-10  mb-30 ;
+}
+.input-item{
+    @apply border-2 border-blue-400 w-100 h-20  py-10 px-10 shadow-md rounded-2xl  text-2xl text-white bg-black/20 placeholder-white/70 focus:outline-none   transition duration-300 shadow-blue-400/90 hover:bg-black/40 hover:shadow-white/90 ;
+}
+.serach-items{
+    @apply bg-black/20 border-2 border-blue-400 rounded-2xl shadow-md px-6 py-4 text-2xl text-white  shadow-blue-400/90 hover:bg-black/50 hover:text-white transition duration-300 ;
+}   
