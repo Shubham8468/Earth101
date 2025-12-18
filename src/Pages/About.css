@@ -11,7 +11,7 @@
     @apply  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-20  ;
 }
 .container-card{
-    @apply  bg-gradient-to-r from-blue-500/80 to-purple-500/70 rounded-2xl shadow-xl p-6 flex flex-col items-start justify-start gap-6 text-white  py-8
+    @apply  bg-gradient-to-r from-blue-500/80 to-purple-500/70 rounded-4xl shadow-xl p-6 flex flex-col items-start justify-start gap-6 text-white  py-8 shadow-blue-300/50
     px-20 py-30;
    
 }

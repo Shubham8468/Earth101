@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 .count{
-    @apply  bg-gradient-to-r from-blue-500/70 to-purple-500/70 rounded-lg shadow-md overflow-hidden ;
+    @apply  bg-gradient-to-r from-blue-500/70 to-purple-500/70 rounded-4xl shadow-md overflow-hidden shadow-blue-200/90 ;
 }
 .count-card{
     @apply  flex flex-col mt-10 px-16 py-8 ;
