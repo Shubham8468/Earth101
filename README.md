@@ -1,16 +1,81 @@
-# React + Vite
+# 🧭 GeoVibex
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+GeoVibex is a modern web-based project designed to provide an interactive and user-friendly experience related to geography and location-based concepts.  
+The project focuses on clean UI design, responsiveness, and practical implementation of frontend development skills.
 
-Currently, two official plugins are available:
+🔗 **Live Demo:**  
+https://geovibex.netlify.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🌍 Clean and interactive user interface  
+- 📱 Fully responsive design (mobile, tablet & desktop)  
+- ⚡ Fast loading and optimized performance  
+- 🎨 Modern UI and layout  
+- 🧩 Well-structured and reusable components  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- HTML5  
+- CSS3  
+- JavaScript  
+- React.js  
+- Netlify (for deployment)
+
+---
+
+## 📂 Project Structure
+
+GeoVibex/
+│── src/
+│ ├── components/
+│ ├── assets/
+│ ├── pages/
+│── public/
+│── index.html
+│── README.md
+
+
+
+---
+
+## 🧠 Learning Outcomes
+
+This project helped me to:
+
+- Build a real-world frontend project  
+- Improve UI/UX design skills  
+- Work with reusable components  
+- Understand project structuring  
+- Deploy applications using Netlify  
+
+---
+
+## 🧪 How to Run the Project Locally
+1. cd geovibex
+2. npm install
+3. npm start
+
+--------------------------------
+1. Clone the repository  
+```bash
+git clone https://github.com/your-username/geovibex.git
+
+
+-----------------
+
+
+👩‍💻 Author
+
+Shubham
+Frontend Developer
+Passionate about building clean and user-friendly web applications
+
+
+
+---
+
